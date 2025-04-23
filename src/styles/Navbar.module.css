@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #000000;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  color: #00ff66;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navLink {
+  color: rgb(210, 244, 216);
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #00ff66;
+}
+
+.contactIcons {
+  align-items: center;
+}
+
+.iconLink {
+  color: #00ff66;
+  font-size: 20px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 7px;
+  border-radius: 50%;
+  background-color: #0d0e0d;
+}
+
+.iconLink:hover {
+  color: #00ff66;
+  background-color: rgb(210, 244, 216);
+}

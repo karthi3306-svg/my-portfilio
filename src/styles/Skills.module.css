@@ -1,0 +1,46 @@
+.skills {
+  background-color: #111;
+}
+
+.title {
+  color: #90ee90;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cursor {
+  color: #0f0;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.skillGroup h3 {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.icons > * {
+  font-size: 2.5rem;
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icons > *:hover {
+  transform: scale(1.2);
+  color: #90ee90;
+}
+
+.textIcon {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border: 1px solid #90ee90;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}

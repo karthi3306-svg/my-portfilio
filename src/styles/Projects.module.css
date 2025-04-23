@@ -1,0 +1,58 @@
+.projectSection {
+  background-color:mland, 
+  #1e1e1e;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #9fff00;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title span {
+  color: #ccc;
+}
+
+.card {
+  background: linear-gradient(145deg, #222222, #1a1a1a);
+  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(159, 255, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(159, 255, 0, 0.4);
+}
+
+.projectTitle {
+  color: #9fff00;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tech {
+  font-size: 0.9rem;
+  color: #cccccc;
+  font-style: italic;
+}
+
+.featureList {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: #bbbbbb;
+  line-height: 1.5rem;
+}
+/* Center project cards on computer screens (md and above) */
+@media (min-width: 768px) {
+  .projectSection .row {
+    justify-content: center;
+  }
+  /* Ensure cards don't stretch too wide on large screens */
+  .card {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

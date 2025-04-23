@@ -1,0 +1,43 @@
+.education {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #00ff00;
+  font-family: monospace;
+}
+
+.bracket {
+  color: #ccc;
+}
+
+.eduItem {
+  background: #111;
+  border-left: 3px solid #00ff00;
+}
+
+.eduItem h3 {
+  font-size: 1.2rem;
+  color: #00ff00;
+}
+
+.institution {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.detail {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.grade {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.grade span {
+  color: #00ff00;
+}
