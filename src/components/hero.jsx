@@ -33,7 +33,7 @@ const Hero = () => {
             <span className={styles.badge}>JavaScript</span>
             <span className={styles.badge}>CSS Modules</span>
           </div>
-          <a href="https://github.com/your-username/your-repo-name" target="_blank" rel="noopener noreferrer" className={styles.githubLink}>
+          <a href="https://github.com/karthi3306-svg/my-portfilio.git" target="_blank" rel="noopener noreferrer" className={styles.githubLink}>
             View Source Code on GitHub
           </a>
           <a href="/karthick-resume.pdf" download className={styles.resumeBtn}>Download Resume</a>
