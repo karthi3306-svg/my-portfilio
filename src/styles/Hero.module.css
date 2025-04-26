@@ -107,7 +107,7 @@
     object-position: center;
     margin: 20px auto;
     display: block;
-    margin-top: -12px; /* Adjust this value if needed */
+    margin-top: 16px; /* Adjust this value if needed */
     
   }
 }
