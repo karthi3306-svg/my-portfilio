@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfilio/static/css/main.304bc87c.css",
+    "main.css": "/my-portfilio/static/css/main.3c16ebd8.css",
     "main.js": "/my-portfilio/static/js/main.dbd88a71.js",
     "static/media/karthi-photo.jpg.jpg": "/my-portfilio/static/media/karthi-photo.jpg.3070fd622dc0d69aa856.jpg",
     "index.html": "/my-portfilio/index.html",
-    "main.304bc87c.css.map": "/my-portfilio/static/css/main.304bc87c.css.map",
+    "main.3c16ebd8.css.map": "/my-portfilio/static/css/main.3c16ebd8.css.map",
     "main.dbd88a71.js.map": "/my-portfilio/static/js/main.dbd88a71.js.map"
   },
   "entrypoints": [
-    "static/css/main.304bc87c.css",
+    "static/css/main.3c16ebd8.css",
     "static/js/main.dbd88a71.js"
   ]
 }
